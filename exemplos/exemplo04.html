@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorBox</title>
+    <link rel="stylesheet" href="colorbox/example3/colorbox.css">
+</head>
+<body>
+    <a href="img/capitao-america-grande.jpg" class="grupo1"><img src="img/capitao-america.jpg"></a>
+    
+    <a href="img/homem-de-ferro-grande.jpg" class="grupo1"><img src="img/homem-de-ferro.jpg"></a>
+    
+    <a href="img/wolverine-grande.jpg" class="grupo1"><img src="img/wolverine.jpg"></a>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="colorbox/jquery.colorbox.js"></script>
+    <script>
+        $('.grupo1').colorbox({rel:'grupo1'})
+    </script>
+</body>
+</html>
