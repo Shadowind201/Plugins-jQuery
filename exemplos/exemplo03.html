@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>    
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Parallax</title>
+        <link rel="stylesheet" href="justifiedGallery.min/justifiedGallery.min.css" />    
+        <style>        
+        * {            
+            margin: 0;            
+            box-sizing: border-box;            
+            font-family: sans-serif;        
+            }    
+        </style>
+    </head>
+    <body>    
+        <!-- http://miromannino.github.io/Justified-Gallery/ -->
+        <h1>Galeria de Fotos</h1>
+        <div id="minha-galeria">
+            <div>    
+                <img src="img/capitao-america.jpg">
+            </div>
+            <div>
+                <img src="img/capitao-america-grande.jpg">
+            </div>
+            <div>
+                <img src="img/homem-de-ferro.jpg">
+            </div>
+            <div>
+                <img src="img/homem-de-ferro-grande.jpg"> 
+            </div>
+            <div>   
+                <img src="img/wolverine.jpg">   
+            </div>
+            <div> 
+                <img src="img/wolverine-grande.jpg">
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="justifiedGallery.min/jquery.justifiedGallery.min.js"></script>
+        <script>
+            $("#minha-galeria").justifiedGallery();
+        </script>
+    </body>
+</html>
